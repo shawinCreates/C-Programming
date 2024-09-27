@@ -1,4 +1,5 @@
 //                      BUS RESERVATION SYSTEM
+// author shawinCodes
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -73,7 +74,7 @@ BST *insert(BST **r, int custId)
     (*r)->PassnNo = custId;
     if (*r == NULL)
     {
-      printf("No memory…");
+      printf("No memoryâ€¦");
       return NULL;
     }
     else
